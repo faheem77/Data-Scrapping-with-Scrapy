@@ -23,7 +23,7 @@ Website scrapping with Scrapy
    pip install -r requirements.txt
 ```
 
-### Running Scrappy spider and save data in CSV file
+### Run Scrappy spider and save data in CSV file
 
 ```
     scrapy runspider scraper.py -O data.csv  
