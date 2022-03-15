@@ -8,19 +8,22 @@ Website scrapping with Scrapy
 ```
   git clone https://github.com/faheem77/Data-Scrapping-with-Scrapy.git
 ```
-
+### Move  into the directory 
+```
+ cd Data-Scrapping-with-Scrapy
+ ```
 ### Start virtual enviroment
 
 ```
     pipenv shell
 ```
-### Install requirements
+### Install required library
 
 ``` 
    pip install -r requirements.txt
 ```
 
-### Running Scrappy spider
+### Running Scrappy spider and save data in CSV file
 
 ```
     scrapy runspider scraper.py -O data.csv  
